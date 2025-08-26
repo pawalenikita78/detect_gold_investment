@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+mistralai
+pydantic
+python-dotenv
