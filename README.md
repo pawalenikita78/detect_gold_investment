@@ -1,0 +1,1 @@
+# detect_gold_investment
