@@ -4,7 +4,8 @@ pydantic==2.5.0
 sentence-transformers==2.2.2
 faiss-cpu==1.7.4
 numpy>=1.26.0 
-mistralai==0.2.1
+mistralai>=1.9.8
 python-dotenv==1.0.0
 requests==2.31.0
 setuptools>=65.5.0
+
