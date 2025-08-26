@@ -1,21 +1,19 @@
+fastapi
+uvicorn[standard]
+pydantic
+sentence-transformers
+faiss-cpu
+numpy
+setuptools
+mistralai
+
 # fastapi==0.104.1
-# uvicorn==0.24.0
+# uvicorn[standard]==0.24.0
 # pydantic==2.5.0
 # sentence-transformers==2.2.2
 # faiss-cpu==1.7.4
-# numpy>=1.26.0 
-# mistralai>=1.9.8
-# python-dotenv==1.0.0
-# requests==2.31.0
+# numpy==1.24.0; python_version < "3.13"
 # setuptools>=65.5.0
-
-
-fastapi==0.104.1
-uvicorn[standard]==0.24.0
-pydantic==2.5.0
-sentence-transformers==2.2.2
-faiss-cpu==1.7.4
-numpy==1.24.0; python_version < "3.13"
-setuptools>=65.5.0
-mistralai>=1.9.8
+# mistralai>=1.9.8
 --only-binary=:all:  # Force using wheels only
+
